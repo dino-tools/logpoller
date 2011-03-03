@@ -8,7 +8,9 @@ logpoller
 
 # INSTALL
 
-crontabに書いてね
+とくに依存するモジュールはないので、チェックアウトしたものだけがあれば動作します。
+
+あとは定期的な呼び出しをcrontabに書いてね
 
 # DESCRIPTION
 
