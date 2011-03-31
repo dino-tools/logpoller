@@ -3,5 +3,5 @@ MAILTO=""
 ##
 # error log poller
 ##
-*/8 * * * * appdept perl /path/to/logpoller.pl --log-type=php --target-file=/var/log/php_error.log --mailto=alert@example.com --handle-level=0 --site-name=FATAL
-*/8 * * * * appdept perl /path/to/logpoller.pl --log-type=symfony1dino --last-digest-file=/tmp/logpoller-symfony-frontend.txt --target-file=/path/to/frontend_prod.log --mailto=alert@example.com --handle-level=2 --site-name=FRONTEND
+*/8 * * * * perl /path/to/logpoller.pl --log-type=php --target-file=/var/log/php_error.log --mailto=alert@example.com --handle-level=0 --site-name=FATAL
+*/8 * * * * perl /path/to/logpoller.pl --log-type=symfony1dino --last-digest-file=/tmp/logpoller-symfony-frontend.txt --target-file=/path/to/frontend_prod.log --mailto=alert@example.com --handle-level=2 --site-name=FRONTEND
